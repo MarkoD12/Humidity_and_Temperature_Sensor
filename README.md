@@ -6,7 +6,7 @@
 # 5. In Google Chrome open localhost:3000. You should see your server displaying the readings on a chart. Scrolling lower, you will see a history of all the readings with their time at which they were taken.
 
 
-# This server.js file acts as a bridge between an Arduino hardware sensor and a web dashboard. It collects real-time environmental data, saves it to a database, and provides an API for a frontend to display that data.
+# The server.js file acts as a bridge between an Arduino hardware sensor and a web dashboard. It collects real-time environmental data, saves it to a database, and provides an API for a frontend to display that data.
 
 # 1. Hardware Communication (Serial Port)
 # The code uses the serialport library to listen to a physical connection (in this case, COM4).
